@@ -1,0 +1,379 @@
+{
+    "version": "1.1.2",
+    "project": {
+        "name": "temple",
+        "directory": "E:\\SpinalHDL\\Temple",
+        "workspaceDir": "E:\\SpinalHDL\\Temple",
+        "sources": [
+            "E:\\SpinalHDL\\Temple\\src\\main\\scala-2.11",
+            "E:\\SpinalHDL\\Temple\\src\\main\\scala",
+            "E:\\SpinalHDL\\Temple\\src\\main\\java",
+            "E:\\SpinalHDL\\Temple\\target\\scala-2.11\\src_managed\\main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\spinalhdl\\spinalhdl-lib_2.11\\1.3.8\\spinalhdl-lib_2.11-1.3.8.jar",
+            "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12.jar",
+            "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.25\\slf4j-api-1.7.25.jar",
+            "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.11.12\\scala-reflect-2.11.12.jar",
+            "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-simple\\1.7.25\\slf4j-simple-1.7.25.jar",
+            "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\4.2.2\\jna-4.2.2.jar",
+            "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\oshi\\oshi-core\\3.4.0\\oshi-core-3.4.0.jar",
+            "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna-platform\\4.2.2\\jna-platform-4.2.2.jar",
+            "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\spinalhdl\\spinalhdl-sim_2.11\\1.3.8\\spinalhdl-sim_2.11-1.3.8.jar",
+            "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\intellij\\annotations\\12.0\\annotations-12.0.jar",
+            "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\spinalhdl\\spinalhdl-core_2.11\\1.3.8\\spinalhdl-core_2.11-1.3.8.jar",
+            "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\openhft\\affinity\\3.1.11\\affinity-3.1.11.jar",
+            "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\commons-io\\commons-io\\2.4\\commons-io-2.4.jar",
+            "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\scopt\\scopt_2.11\\3.4.0\\scopt_2.11-3.4.0.jar"
+        ],
+        "out": "E:\\SpinalHDL\\Temple\\.bloop\\temple",
+        "classesDir": "E:\\SpinalHDL\\Temple\\.bloop\\temple\\scala-2.11\\classes",
+        "resources": [
+            "E:\\SpinalHDL\\Temple\\src\\main\\resources",
+            "E:\\SpinalHDL\\Temple\\target\\scala-2.11\\resource_managed\\main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.11.12",
+            "options": [
+                
+            ],
+            "jars": [
+                "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12.jar",
+                "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.11.12\\scala-reflect-2.11.12.jar",
+                "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.11\\1.0.4\\scala-parser-combinators_2.11-1.0.4.jar",
+                "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.11.12\\scala-compiler-2.11.12.jar",
+                "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\jline\\jline\\2.14.3\\jline-2.14.3.jar",
+                "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.11\\1.0.5\\scala-xml_2.11-1.0.5.jar"
+            ],
+            "analysis": "E:\\SpinalHDL\\Temple\\target\\streams\\compile\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.11.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "D:\\JAVA\\jdk8\\jre",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "com.github.spinalhdl",
+                    "name": "spinalhdl-lib_2.11",
+                    "version": "1.3.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spinalhdl-lib_2.11",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\spinalhdl\\spinalhdl-lib_2.11\\1.3.8\\spinalhdl-lib_2.11-1.3.8.jar"
+                        },
+                        {
+                            "name": "spinalhdl-lib_2.11",
+                            "classifier": "sources",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\spinalhdl\\spinalhdl-lib_2.11\\1.3.8\\spinalhdl-lib_2.11-1.3.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.11.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.25",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.25\\slf4j-api-1.7.25.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.25\\slf4j-api-1.7.25-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.11.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.11.12\\scala-reflect-2.11.12.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.11.12\\scala-reflect-2.11.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-simple",
+                    "version": "1.7.25",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-simple",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-simple\\1.7.25\\slf4j-simple-1.7.25.jar"
+                        },
+                        {
+                            "name": "slf4j-simple",
+                            "classifier": "sources",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-simple\\1.7.25\\slf4j-simple-1.7.25-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.java.dev.jna",
+                    "name": "jna",
+                    "version": "4.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jna",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\4.2.2\\jna-4.2.2.jar"
+                        },
+                        {
+                            "name": "jna",
+                            "classifier": "sources",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\4.2.2\\jna-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.oshi",
+                    "name": "oshi-core",
+                    "version": "3.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "oshi-core",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\oshi\\oshi-core\\3.4.0\\oshi-core-3.4.0.jar"
+                        },
+                        {
+                            "name": "oshi-core",
+                            "classifier": "sources",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\oshi\\oshi-core\\3.4.0\\oshi-core-3.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.java.dev.jna",
+                    "name": "jna-platform",
+                    "version": "4.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jna-platform",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna-platform\\4.2.2\\jna-platform-4.2.2.jar"
+                        },
+                        {
+                            "name": "jna-platform",
+                            "classifier": "sources",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna-platform\\4.2.2\\jna-platform-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.spinalhdl",
+                    "name": "spinalhdl-sim_2.11",
+                    "version": "1.3.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spinalhdl-sim_2.11",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\spinalhdl\\spinalhdl-sim_2.11\\1.3.8\\spinalhdl-sim_2.11-1.3.8.jar"
+                        },
+                        {
+                            "name": "spinalhdl-sim_2.11",
+                            "classifier": "sources",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\spinalhdl\\spinalhdl-sim_2.11\\1.3.8\\spinalhdl-sim_2.11-1.3.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.intellij",
+                    "name": "annotations",
+                    "version": "12.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "annotations",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\intellij\\annotations\\12.0\\annotations-12.0.jar"
+                        },
+                        {
+                            "name": "annotations",
+                            "classifier": "sources",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\intellij\\annotations\\12.0\\annotations-12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.spinalhdl",
+                    "name": "spinalhdl-core_2.11",
+                    "version": "1.3.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spinalhdl-core_2.11",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\spinalhdl\\spinalhdl-core_2.11\\1.3.8\\spinalhdl-core_2.11-1.3.8.jar"
+                        },
+                        {
+                            "name": "spinalhdl-core_2.11",
+                            "classifier": "sources",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\spinalhdl\\spinalhdl-core_2.11\\1.3.8\\spinalhdl-core_2.11-1.3.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.openhft",
+                    "name": "affinity",
+                    "version": "3.1.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "affinity",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\openhft\\affinity\\3.1.11\\affinity-3.1.11.jar"
+                        },
+                        {
+                            "name": "affinity",
+                            "classifier": "sources",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\openhft\\affinity\\3.1.11\\affinity-3.1.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-io",
+                    "name": "commons-io",
+                    "version": "2.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-io",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\commons-io\\commons-io\\2.4\\commons-io-2.4.jar"
+                        },
+                        {
+                            "name": "commons-io",
+                            "classifier": "sources",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\commons-io\\commons-io\\2.4\\commons-io-2.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.scopt",
+                    "name": "scopt_2.11",
+                    "version": "3.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scopt_2.11",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\scopt\\scopt_2.11\\3.4.0\\scopt_2.11-3.4.0.jar"
+                        },
+                        {
+                            "name": "scopt_2.11",
+                            "classifier": "sources",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\scopt\\scopt_2.11\\3.4.0\\scopt_2.11-3.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.11.12",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "E:\\SpinalHDL\\Temple\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.11.12\\scala-library-2.11.12-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

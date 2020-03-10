@@ -1,0 +1,4 @@
+[debug] [temple-test] Classpath dependencies List()
+[debug] [temple-test] Dependencies from configurations List(temple)
+[debug] Bloop wrote the configuration of project 'temple-test' to 'E:\SpinalHDL\Temple\.bloop\temple-test.json'
+[success] Generated .bloop\temple-test.json
